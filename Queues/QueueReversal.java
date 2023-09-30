@@ -39,3 +39,12 @@ public class QueueReversal {
  * Output:
  * 10 9 8 7 6 5 4 3 2 1
  */
+
+
+/*The provided Java code defines a class named `QueueReversal` that reverses the elements of a Queue using a Stack. Here's a short description of the code:
+
+- The `reverse` method takes a Queue of integers as input and uses a Stack to reverse the order of elements in the Queue.
+- It iterates through the original Queue and pushes each element onto the Stack, effectively reversing their order in the Stack.
+- Then, it pops the elements from the Stack and adds them back to the original Queue, reversing the elements' order in the Queue itself.
+
+In the `main` method, an example Queue `q` containing integers from 1 to 10 is created. The `reverse` method is called to reverse the order of elements in the Queue, and the modified Queue is printed to the console, demonstrating the reversal.*/
