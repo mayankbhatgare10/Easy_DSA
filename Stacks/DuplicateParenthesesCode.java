@@ -49,3 +49,16 @@ public class DuplicateParenthesesCode {
 
     }
 }
+
+
+/* The provided Java code defines a class named `DuplicateParenthesesCode` that checks if a given string contains duplicate parentheses. Here's a short description of the code:
+
+- The `isDuplicate` method takes a string `str` as input and uses a stack to analyze the presence of duplicate parentheses.
+- It iterates through each character in the string from left to right.
+- When it encounters an opening parenthesis '(', it pushes it onto the stack.
+- When it encounters a closing parenthesis ')', it checks the characters on the stack until it finds the corresponding opening parenthesis '('. It counts the number of characters between the opening and closing parentheses.
+- If the count of characters between the parentheses is less than 1 (indicating duplicate parentheses), it returns `true`.
+- If the count is greater than or equal to 1, it pops the opening parenthesis from the stack, indicating a valid pair.
+- If the loop completes without finding any duplicate parentheses, it returns `false`.
+
+In the `main` method, two example strings (`str1` and `str2`) are provided, and the `isDuplicate` method is called to check for duplicate parentheses in each string. The results are printed to the console.*/
